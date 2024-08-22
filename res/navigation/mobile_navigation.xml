@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ncnn_yolo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.ncnn_yolo.ui.detect.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/video" />
+
+    <fragment
+        android:id="@+id/nav_img"
+        android:name="com.example.ncnn_yolo.ui.detect.ImageFragment"
+        android:label="@string/menu_img"
+        tools:layout="@layout/img" />
+
+    <fragment
+        android:id="@+id/nav_imgfix"
+        android:name="com.example.ncnn_yolo.ui.fix.ImgFix"
+        android:label="@string/menu_imgfix"
+        tools:layout="@layout/img_fix" />
+
+    <fragment
+        android:id="@+id/nav_flv"
+        android:name="com.example.ncnn_yolo.ui.detect.flv"
+        android:label="@string/menu_flv"
+        tools:layout="@layout/flv" />
+</navigation>
