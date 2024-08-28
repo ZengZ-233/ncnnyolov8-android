@@ -21,14 +21,15 @@
     <string name="nav_header_title">桂林电子科技大学</string>
     <string name="nav_header_subtitle">1176017541@qq.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+<!--    <string name="action_settings">Settings</string>-->
+    <string name="action_theme_switch">主题颜色更换</string>
 
     <string name="menu_home">主页</string>
     <string name="menu_video">摄像头检测</string>
     <string name="menu_img">图片检测</string>
     <string name="menu_imgfix">图片修复</string>
     <string name="menu_flv">视频检测</string>
-
+    <string name="switch_theme">Switch Theme</string>
 
 
 </resources>

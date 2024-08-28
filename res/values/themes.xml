@@ -14,12 +14,17 @@
         <!-- Customize your theme here. -->
     </style>
 
+
     <style name="Theme.Ncnnyolo.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Ncnnyolo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Ncnnyolo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
 
-    <style name="Theme.Ncnnyolo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Ncnnyolo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+    </style>
+
 </resources>

@@ -11,12 +11,19 @@
         android:layout_height="wrap_content"
         android:theme="@style/Theme.Ncnnyolo.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.Ncnnyolo.PopupOverlay" />
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            android:background="?attr/colorPrimary"-->
+<!--            app:popupTheme="@style/Theme.Ncnnyolo.PopupOverlay" />-->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FFFFFF"
+                android:titleTextColor="#000000"
+                app:popupTheme="@style/Theme.Ncnnyolo.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
