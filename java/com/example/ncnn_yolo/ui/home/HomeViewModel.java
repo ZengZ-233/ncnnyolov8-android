@@ -8,6 +8,7 @@ public class HomeViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
     private final MutableLiveData<String> mTextState;
+    private final MutableLiveData<Integer> mTextStateColor; // MutableLiveData for color
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
@@ -20,6 +21,9 @@ public class HomeViewModel extends ViewModel {
                 "在“图片检测”中可以对图像进行检测以及保存\n" +
                 "在“图像增强”中可以对图像进行高清处理\n" +
                 "在“视频检测”中可以导入视频对视频进行检测");
+
+        mTextStateColor = new MutableLiveData<>();
+        mTextStateColor.setValue(android.graphics.Color.BLACK); // Default color is black
     }
 
     public LiveData<String> getText() {
@@ -30,7 +34,15 @@ public class HomeViewModel extends ViewModel {
         return mTextState;
     }
 
+    public LiveData<Integer> getTextStateColor() {
+        return mTextStateColor;
+    }
+
     public void setTextState(String state) {
         mTextState.setValue(state);
+    }
+
+    public void setTextStateColor(int color) {
+        mTextStateColor.setValue(color);
     }
 }
